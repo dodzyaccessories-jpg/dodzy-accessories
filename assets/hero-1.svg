@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6efe8"/>
+      <stop offset="1" stop-color="#e9d9c1"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fcecc4"/>
+      <stop offset="0.35" stop-color="#d8a358"/>
+      <stop offset="0.7" stop-color="#f7e3aa"/>
+      <stop offset="1" stop-color="#9a6d33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <circle cx="980" cy="210" r="110" fill="#f4efe9" stroke="#d9b98c" stroke-width="8"/>
+    <circle cx="980" cy="210" r="82" fill="none" stroke="#e1c9a1" stroke-width="5"/>
+    <rect x="910" y="132" width="140" height="150" rx="16" fill="#f0e2d0" opacity="0.7"/>
+  </g>
+  <g transform="translate(0,80)">
+    <circle cx="770" cy="555" r="165" fill="#f1e4d0" stroke="#d9bc90" stroke-width="7"/>
+    <circle cx="770" cy="555" r="120" fill="none" stroke="#e9d5b2" stroke-width="6"/>
+    <path d="M470 425c0 40 43 113 120 190 90-72 124-144 124-190 0-80-56-135-124-135-67 0-120 55-120 135z" fill="#f3e7d5" opacity="0.95"/>
+    <path d="M515 485c0 60 60 150 120 222 90-79 123-171 123-222 0-84-59-140-123-140-64 0-120 56-120 140z" fill="none" stroke="url(#gold)" stroke-width="12"/>
+    <path d="M630 620c35 36 60 66 60 111 0 130-110 188-166 66" fill="none" stroke="#d7a75e" stroke-width="7" opacity="0.9"/>
+    <circle cx="885" cy="668" r="82" fill="#f4ece1" stroke="#d7b480" stroke-width="8"/>
+  </g>
+  <g transform="translate(120,220)">
+    <circle cx="160" cy="760" r="90" fill="none" stroke="url(#gold)" stroke-width="18"/>
+    <circle cx="160" cy="760" r="58" fill="none" stroke="#f4dfaf" stroke-width="6"/>
+    <circle cx="440" cy="745" r="70" fill="none" stroke="url(#gold)" stroke-width="12"/>
+    <circle cx="440" cy="745" r="42" fill="none" stroke="#f3d79c" stroke-width="5"/>
+    <path d="M665 612c0 0-30 140 72 174 52-40 77-101 58-170-14-54-68-90-126-96-30 0-58 18-74 46" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M675 645c0 0 30 100 103 123" fill="none" stroke="#d49e57" stroke-width="9"/>
+  </g>
+</svg>

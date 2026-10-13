@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8f1e8"/>
+      <stop offset="1" stop-color="#e9d7c1"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fbe7b0"/>
+      <stop offset="0.35" stop-color="#d1a564"/>
+      <stop offset="0.7" stop-color="#f5dca3"/>
+      <stop offset="1" stop-color="#9a6e33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity="0.8">
+    <circle cx="1000" cy="180" r="102" fill="#f4efe8" stroke="#d8bc8e" stroke-width="8"/>
+    <circle cx="1000" cy="180" r="72" fill="none" stroke="#e3c999" stroke-width="4"/>
+  </g>
+  <g transform="translate(20,0)">
+    <path d="M650 500c0-140 145-251 250-334 70 77 148 181 148 334 0 141-110 244-244 244-138 0-254-103-254-244z" fill="#f3e6d5" opacity="0.8"/>
+    <path d="M693 510c0-120 89-205 190-280 74 70 154 165 154 280 0 126-92 219-198 219-111 0-146-94-146-219z" fill="none" stroke="url(#gold)" stroke-width="11"/>
+    <circle cx="786" cy="565" r="68" fill="#f5eee7" stroke="#d3b17a" stroke-width="6"/>
+    <path d="M815 345c0 0 52-18 71 36 18 53-8 87-67 90" fill="none" stroke="#d0a56b" stroke-width="7"/>
+    <path d="M240 620c-8-86 40-142 99-170 72 35 123 132 99 196-28 75-110 101-157 89-42-12-68-38-41-115z" fill="#f2e8d8" opacity="0.8"/>
+    <path d="M281 620c0-46 38-86 85-109 53 19 90 77 80 145-13 91-80 119-132 109-41-9-67-62-33-145z" fill="none" stroke="url(#gold)" stroke-width="9"/>
+  </g>
+  <g transform="translate(0,160)">
+    <circle cx="215" cy="548" r="62" fill="none" stroke="url(#gold)" stroke-width="15"/>
+    <circle cx="215" cy="548" r="36" fill="none" stroke="#f4d694" stroke-width="4"/>
+    <circle cx="440" cy="570" r="50" fill="none" stroke="url(#gold)" stroke-width="10"/>
+    <circle cx="440" cy="570" r="25" fill="none" stroke="#f4d694" stroke-width="3"/>
+    <path d="M610 530c24-66 81-112 194-112 0 0 47 83 33 155-15 77-87 145-157 144-58 0-95-44-102-105" fill="none" stroke="url(#gold)" stroke-width="18"/>
+    <path d="M655 622c28 18 126 35 187-9" fill="none" stroke="#c8924d" stroke-width="8"/>
+  </g>
+</svg>

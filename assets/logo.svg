@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7f0e6"/>
+      <stop offset="1" stop-color="#efe1cf"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fbe7b0"/>
+      <stop offset="0.35" stop-color="#d1a564"/>
+      <stop offset="0.7" stop-color="#f5dca3"/>
+      <stop offset="1" stop-color="#9a6e33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g font-family="Georgia, serif" fill="#5d4137">
+    <text x="400" y="220" text-anchor="middle" font-size="140" font-style="italic" letter-spacing="-2">Dodzy</text>
+    <text x="400" y="320" text-anchor="middle" font-size="34" letter-spacing="3">Accessories</text>
+    <path d="M225 298h350" stroke="#b99767" stroke-width="2"/>
+    <g fill="#b99767">
+      <circle cx="255" cy="298" r="6"/>
+      <circle cx="545" cy="298" r="6"/>
+    </g>
+  </g>
+</svg>
